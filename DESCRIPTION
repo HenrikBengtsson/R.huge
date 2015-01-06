@@ -12,3 +12,6 @@ Description: THIS PACKAGE HAS BEEN DEPRECATED. Do not start building new project
 License: LGPL (>= 2.1)
 URL: http://www.braju.com/R/
 LazyLoad: TRUE
+ByteCompile: TRUE
+URL: https://github.com/HenrikBengtsson/R.huge
+BugReports: https://github.com/HenrikBengtsson/R.huge/issues
