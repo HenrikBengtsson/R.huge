@@ -1,19 +1,40 @@
-# CRAN submission R.huge 0.9.0
-on 2015-02-22
+# CRAN submission R.huge 0.10.0
 
-Changes related to R/CRAN updates:
+on 2023-06-24
 
-* Using Title Case.
-* Registering S3 methods.
+Thanks in advance
 
 
 ## Notes not sent to CRAN
-R.huge 0.9.0 and its 1 reverse-dependent packages(*) have been verified using `R CMD build` and `R CMD check --as-cran` on
 
-* R version 3.0.3 (2014-03-06) [Platform: x86_64-unknown-linux-gnu(64-bit)].
-* R version 3.1.2 Patched (2015-02-19 r67842) [Platform: x86_64-unknown-linux-gnu (64-bit)].
-* R Under development (unstable) (2015-02-21 r67865) [Platform: x86_64-unknown-linux-gnu (64-bit)].
+### R CMD check validation
 
-It has also been verified by the <http://win-builder.r-project.org/> service.
+The package has been verified using `R CMD check --as-cran` on:
 
-(*) The submitted updates cause no issues for any of the following 1 reverse dependencies on CRAN and Bioconductor: aroma.apd 0.5.0.
+| R version     | GitHub | R-hub | mac/win-builder |
+| ------------- | ------ | ----- | --------------- |
+| 4.1.x         | L      |       |                 |
+| 4.2.x         | L M W  |       |                 |
+| 4.3.x         | L M W  | L . W | M1 W            |
+| devel         | L M W  | L   W |    W            |
+
+*Legend: OS: L = Linux, M = macOS, M1 = macOS M1, W = Windows*
+
+
+R-hub checks:
+
+```r
+res <- rhub::check(platforms = c(
+  "debian-clang-devel", 
+  "fedora-gcc-devel",
+  "debian-gcc-patched", 
+  "windows-x86_64-release",
+  "windows-x86_64-devel"
+))
+print(res)
+```
+
+gives
+
+```
+```
