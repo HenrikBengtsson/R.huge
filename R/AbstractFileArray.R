@@ -82,7 +82,7 @@
 #
 # \references{
 #  [1] New Technology File System (NTFS), Wikipedia, 2006
-#      \url{http://en.wikipedia.org/wiki/NTFS}.
+#      \url{https://en.wikipedia.org/wiki/NTFS}.
 # }
 #
 # @visibility public

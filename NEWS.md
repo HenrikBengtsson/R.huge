@@ -8,6 +8,8 @@
    because the latter is deprecated and will soon be removed.
  
  * Coerced NEWS file to NEWS.md.
+
+ * Update outdated or broken URLs in the documentation.
  
 
 ## Version 0.9.0 [2014-02-22]
