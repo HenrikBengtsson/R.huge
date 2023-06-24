@@ -4,6 +4,9 @@
 
 ### Miscellaneous
 
+ * Now importing `throw()` from **R.oo** instead of **R.methodsS3**,
+   because the latter is deprecated and will soon be removed.
+ 
  * Coerced NEWS file to NEWS.md.
  
 
