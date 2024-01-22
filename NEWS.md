@@ -2,7 +2,9 @@
 
 ## Version (development version)
 
- * ...
+### Documentation
+
+ * Fixed some minor help-page issues.
 
 
 ## Version 0.10.0 [2023-06-24]
